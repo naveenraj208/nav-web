@@ -20,15 +20,21 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Button Layer */}
+      {/* Navigation Buttons */}
       <div className="relative z-10 flex flex-wrap justify-center gap-2 sm:gap-4">
-        {['Roadmap', 'Certificates', 'Projects', 'Contact', 'Blog'].map((item, i) => (
-          <button
+        {[
+          { label: 'About', href: '#about' },
+          { label: 'Projects', href: '#projects' },
+          { label: 'Internship', href: '#internship' },
+          { label: 'Skills', href: '#skills' },
+        ].map((item, i) => (
+          <a
             key={i}
+            href={item.href}
             className="bg-white text-black rounded-full px-3 py-1 sm:px-4 sm:py-2 text-sm font-medium hover:bg-gray-200 transition"
           >
-            {item}
-          </button>
+            {item.label}
+          </a>
         ))}
       </div>
     </div>
