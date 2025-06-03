@@ -6,6 +6,7 @@ import Internship from './organisms/Internship';
 import Skills from './organisms/Skills';
 import Projects from './organisms/Projects';
 import contactMe from './organisms/ContactMe';
+import Footer from './organisms/Footer';
 
 const Home = () => {
   return (
@@ -28,6 +29,9 @@ const Home = () => {
         </section>
         <section id="skills">
           <Skills />
+        </section>
+        <section id="footer">
+          <Footer />
         </section>
       </div>
     </main>
