@@ -19,8 +19,7 @@ const Home = () => {
         <section id="contact">
           {contactMe()}
         </section>
-        
-
+      
         <section id="projects">
           <Projects />
         </section>

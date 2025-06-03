@@ -75,7 +75,10 @@ const projects = [
 const ProjectsTimeline = () => {
   return (
     <div className="bg-black py-20 px-4 md:px-20 relative overflow-hidden">
-      <h2 className="text-4xl font-bold text-white text-center mb-20">Projects Timeline</h2>
+      <h2 className="text-4xl font-bold text-center mb-20 bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
+      Projects Timeline
+     </h2>
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (

@@ -46,7 +46,11 @@ const internships = [
 const Internship = () => {
   return (
     <div className="bg-black py-16 text-white">
-      <h2 className="text-center text-4xl font-bold mb-8">Internship</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <span className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
+          Internship
+        </span>
+      </h2>
       <div className="flex flex-wrap justify-center">
         {internships.map((internship, index) => (
           <div
