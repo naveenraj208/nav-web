@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaFacebook, FaGithub, FaGlobe } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaGlobe } from 'react-icons/fa';
 import { FaResearchgate } from 'react-icons/fa';
 
 export default function ContactMe() {
