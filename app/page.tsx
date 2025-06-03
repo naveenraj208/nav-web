@@ -7,7 +7,8 @@ import Skills from './organisms/Skills';
 import Projects from './organisms/Projects';
 import contactMe from './organisms/ContactMe';
 import Footer from './organisms/Footer';
-
+import involvementData from './organisms/InvolvementSection';
+import InvolvementSection from './organisms/InvolvementSection';
 const Home = () => {
   return (
     <main className="bg-black text-white scroll-smooth">
@@ -26,6 +27,9 @@ const Home = () => {
         </section>
         <section id="internship">
           <Internship />
+        </section>
+        <section id="involvement">
+          <InvolvementSection data={involvementData} />
         </section>
         <section id="skills">
           <Skills />
