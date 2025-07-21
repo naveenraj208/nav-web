@@ -8,6 +8,8 @@ import Projects from './organisms/Projects';
 import contactMe from './organisms/ContactMe';
 import Footer from './organisms/Footer';
 import InvolvementSection from './organisms/InvolvementSection';
+import DevelopedWebsites from './organisms/web';
+import ResumeSection from './organisms/resume';
 const Home = () => {
   return (
     <main className="bg-black text-white scroll-smooth">
@@ -19,7 +21,14 @@ const Home = () => {
         <section id="contact">
           {contactMe()}
         </section>
+        <section id="resume">
+          <ResumeSection />
+        </section>
+        
       
+        <section id="web">
+          <DevelopedWebsites />
+        </section>
         <section id="projects">
           <Projects />
         </section>
