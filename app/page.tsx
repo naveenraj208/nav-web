@@ -10,6 +10,7 @@ import Footer from './organisms/Footer';
 import InvolvementSection from './organisms/InvolvementSection';
 import DevelopedWebsites from './organisms/web';
 import ResumeSection from './organisms/resume';
+
 const Home = () => {
   return (
     <main className="bg-black text-white scroll-smooth">
@@ -38,6 +39,7 @@ const Home = () => {
         <section id="involvement">
           <InvolvementSection />
         </section>
+        
         
         <section id="skills">
           <Skills />
