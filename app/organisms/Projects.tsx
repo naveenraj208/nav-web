@@ -23,26 +23,27 @@ const projects = [
     technologies: ["Python", "Scikit-learn", "macOS"]
   },
   
-  {
-    "name": "AI SCRUM",
-    "time": "2024",
-    "description": "Developed an AI-powered SCRUM assistant that integrates with JIRA, Google Meet, and Slack to automate task tracking, team collaboration, and Agile workflow execution through natural language commands.",
-    "technologies": ["Python", "Gradio", "OpenAI API", "Slack API", "Google Calendar API", "JIRA API","NextJS"]
-  },
   
-   
     {
-      "name": "Privacy-Preserving Distributed Malware Detection with Federated Learning and ZKP ",
+      "name": "AI SCRUM",
       "time": "2024",
-      "description": "This project captures live network packets and extracts key features such as TTL, packet length, and protocol type. These features are processed by a stacked ensemble machine learning model trained using federated learning, ensuring that data never leaves the local device. When a threat is detected, the system generates a cryptographic hash (proof of detection) and records it on a private Ethereum blockchain. This hash serves as a verifiable, tamper-proof record, while a novel 'proof-of-threat lineage' links related attacks chronologically for transparent forensic analysis.",
+      "description": "Built an AI-powered SCRUM assistant integrating JIRA, Google Meet, and Slack to automate task management and Agile workflows via natural language commands.",
+      "technologies": ["Python", "Gradio", "OpenAI API", "Slack API", "Google Calendar API", "JIRA API", "NextJS"]
+    },
+    {
+      "name": "Privacy-Preserving Distributed Malware Detection with Federated Learning and ZKP",
+      "time": "2024",
+      "description": "Designed a malware detection system using federated learning and zero-knowledge proofs, with blockchain-based tamper-proof threat logging and lineage tracking.",
       "technologies": ["Python", "Cryptography", "Wireshark", "Federated Learning", "Blockchain"]
-      },
-      {
-        "name": "Asteroid Detection and Classification",
-        "time": "2023",
-        "description": "This project focuses on detecting and classifying asteroids from astronomical images using 14 different machine learning and deep learning algorithms. A comprehensive comparative study was conducted to evaluate performance across various accuracy, precision, and recall metrics.",
-        "technologies": ["Python", "TensorFlow", "OpenCV", "Scikit-learn"]
-      }
+    },
+    {
+      "name": "Asteroid Detection and Classification",
+      "time": "2023",
+      "description": "Detected and classified asteroids from astronomical images using 14 ML/DL models, with a comparative study on performance metrics like accuracy and recall.",
+      "technologies": ["Python", "TensorFlow", "OpenCV", "Scikit-learn"]
+    }
+  
+  
 ,      
   
   
